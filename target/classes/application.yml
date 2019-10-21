@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: 'listener_edi_sterlingarchive'

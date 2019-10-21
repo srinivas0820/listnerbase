@@ -1,0 +1,65 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "name": "",
+      "type": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.ActiveMqProperties",
+      "name": "",
+      "type": "com.jbhunt.edi.sterlingarchive.properties.ActiveMqProperties"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.configuration.DataSourceConfig",
+      "name": "jbhunt.b2b.datasource.SI2014_PRD",
+      "sourceMethod": "siDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "name": "archive-channel",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "name": "archive-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "defaultValue": 0,
+      "name": "archive-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "name": "archive-queue-manager",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "name": "error-channel",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "name": "error-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "defaultValue": 0,
+      "name": "error-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jbhunt.edi.sterlingarchive.properties.WebMQProperties",
+      "name": "error-queue-manager",
+      "type": "java.lang.String"
+    }
+  ]
+}

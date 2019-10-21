@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: '@project.artifactId@'
+  profiles:
+    active: DEV
+  cloud:
+    config:
+      uri: http://configuration-dev.jbhunt.com/ws_infrastructure_configuration
+      fail-fast: true
+---
+spring:
+  profiles: DEV
+  cloud:
+    config:
+     uri: http://configuration-dev.jbhunt.com/ws_infrastructure_configuration
+---
+spring:
+  profiles: TEST
+  cloud:
+    config:
+      uri: http://configuration-tst.jbhunt.com/ws_infrastructure_configuration
+---
+spring:
+  profiles: QA
+  cloud:
+    config:
+      uri: http://configuration.jbhunt.com/ws_infrastructure_configuration
+---
+spring:
+  profiles: PROD
+  cloud:
+    config:
+      uri: http://configuration.jbhunt.com/ws_infrastructure_configuration
+
+...
